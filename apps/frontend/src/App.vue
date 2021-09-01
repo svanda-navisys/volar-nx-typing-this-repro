@@ -1,6 +1,8 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <!-- Here, somethig is typed correctly as string -->
+  <div> {{ something }} </div>
 </template>
 
 <script lang="ts">
@@ -14,9 +16,10 @@ export default defineComponent({
   },
   data: ()=>({
       something: 'aaaaa',
-  }), 
+  }),
   methods: {
       saySomething() {
+          // 'this' is any
           console.log(this.something)
       }
   }
