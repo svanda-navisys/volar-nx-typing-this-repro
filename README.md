@@ -10,7 +10,7 @@ npm install -g nx
 ```
 install @nx-plus/vue with deps,
 ```
-npm install @nx-plus/vue, @nrwl/cypress --save-dev
+npm install @nx-plus/vue @nrwl/cypress --save-dev
 ```
 Create a nx workspace and add a vue app
 ```
